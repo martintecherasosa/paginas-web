@@ -1,0 +1,59 @@
+*
+	{	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td 
+    margin: 0;
+    padding: 0;
+    border: 0;
+	}
+body{
+	background-image:url(imagenes/turixmar.jpg);
+	background-repeat:no-repeat;
+}
+div.wrapper{
+	width:60%;
+	height:30%;
+	margin-left:20%;
+}
+ul{
+	list-style-type:none;
+	margin:50px;
+	padding:0;
+}
+li{
+	display:inline;
+	float:left;
+	font-size:36px;
+	margin-left:100px;
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	background-color:#3CC;
+	border-radius:20px;
+	width:150px;
+}
+ul > li > a{
+	display:block;
+	width:130px;
+	color:#F00;
+	text-decoration:none;
+}
+div.imagen1{
+	float:left;
+	width:500px;
+	height:300px;
+	margin-top:80px;
+	margin-left:150px;
+}
+div.imagen2{
+	float:left;
+	width:500px;
+	height:300px;
+	margin-top:80px;
+}
+	
